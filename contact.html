@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Dianie | portfolio </title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+               <span class="nav__logo-circle">D</span>
+               <span class="nav__logo-name">Diane Nzie</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+
+               <h3 class="nav__name">Diane</h3>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link ">Accueil</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="index.html#competences" class="nav__link active-link">Compétences</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="index.html#skils" class="nav__link">Qualités</a>
+                  </li>
+
+
+                  <li class="nav__item">
+                     <a href="index.html#about" class="nav__link">A propos</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contact.html" class="nav__link active-link">contact</a>
+                  </li>
+
+                  
+               </ul>
+
+               <!-- Bouton fermé-->
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Bouton de theme -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+               <!-- Bouton à bascule -->
+                <div class="nav__toggle" id="nav_toggle">
+                  <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title">
+                     <span>Informations de contact.</span>
+                  </h2> <br>
+
+                  <p class="contact__description-2">
+                     Commencons un nouveau projet enemble. <br><br>
+                     <i class="ri-phone-line"></i> <b> +237 694 438 990</b> <br> <br>
+                     <i class="ri-mail-line"></i> <b> dianenzie5@gmail.com</b> <br> <br>
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Envoyez moi un message
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Prénom">
+                           <label for="name" class="contact__label">Prénom</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="name" required placeholder="Adresse email">
+                           <label for="email" class="contact__label">Adresse email</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Objet">
+                           <label for="subject" class="contact__label">Objet</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                           <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                           <label for="message" class="contact__label">Message</label>
+                        </div>
+                     </div>
+                     <button type="submit" class="contact__button button">
+                        <i class="ri-send-plane-line">Envoyer un message</i>
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           Contatez moi sur les réseaux sociaux
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                           <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                           <i class="ri-github-line"></i>
+                        </a>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
